@@ -10,6 +10,7 @@ fn main() {
     println!("The value of MAX_POINTS is: {}", MAX_POINTS);
 
     // Shadowing
+    // We can change the datatype as we are creating a new variable
     let y = 5;
 
     let y = y + 1;
